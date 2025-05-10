@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
-import { ArrowRight } from 'lucide-react';
+import { Wallet } from 'lucide-react';
 
 const ExploreApps = () => {
   const [spotsLeft, setSpotsLeft] = useState(5678);
@@ -37,7 +37,7 @@ const ExploreApps = () => {
               <span className="text-solana-blue font-bold">{spotsLeft.toLocaleString()}</span> out of <span className="text-white">{totalSpots.toLocaleString()}</span> 1SOL ABS airdrop spots left
             </p>
             <Button className="solana-button flex items-center gap-2">
-              Get Started <ArrowRight size={16} />
+              Connect Wallet <Wallet size={16} />
             </Button>
           </div>
           
@@ -45,8 +45,8 @@ const ExploreApps = () => {
             <div className="glass-card p-8 relative overflow-hidden">
               <div className="absolute -top-20 -right-20 w-64 h-64 rounded-full bg-gradient-to-br from-solana-purple/30 to-solana-blue/30 blur-2xl" />
               <img 
-                src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&w=1400&q=80" 
-                alt="Abstract Application" 
+                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1400&q=80" 
+                alt="Collaboration Platform" 
                 className="w-full h-auto rounded-lg relative z-10"
               />
             </div>

@@ -1,7 +1,6 @@
 
 import React from 'react';
 import Header from '@/components/Header';
-import Hero from '@/components/Hero';
 import ExploreApps from '@/components/ExploreApps';
 import WhatIsAbstract from '@/components/WhatIsAbstract';
 import JoinCommunity from '@/components/JoinCommunity';
@@ -13,7 +12,6 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-black">
       <Header />
-      <Hero />
       <ExploreApps />
       <JoinCommunity />
       <WhatIsAbstract />
