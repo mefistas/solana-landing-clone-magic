@@ -22,9 +22,15 @@ const WhatIsAbstract = () => {
           </div>
           
           <div className="lg:w-1/2">
-            <h2 className="text-3xl md:text-5xl font-bold mb-6">
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-green-600">What is Abstract?</span>
-            </h2>
+            <div className="flex items-center gap-4 mb-6">
+              <h2 className="text-3xl md:text-5xl font-bold">
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-green-600">What is Abstract?</span>
+              </h2>
+              {/* Placeholder for SVG logo */}
+              <div className="w-12 h-12 bg-transparent">
+                {/* SVG logo will be inserted here */}
+              </div>
+            </div>
             <p className="text-white/70 text-lg mb-5">
               Abstract enables easy discovery and engagement with the best protocols on Solana. Instead of needing to navigate dozens of different interfaces, Abstract lets you access all your favorite programs from one place.
             </p>
