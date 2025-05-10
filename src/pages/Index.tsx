@@ -2,11 +2,13 @@
 import React from 'react';
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
-import EmptySection from '@/components/EmptySection';
+import ExploreApps from '@/components/ExploreApps';
+import WhatIsAbstract from '@/components/WhatIsAbstract';
 import JoinCommunity from '@/components/JoinCommunity';
 import JoinCreators from '@/components/JoinCreators';
 import CommunityBenefits from '@/components/CommunityBenefits';
 import Footer from '@/components/Footer';
+import EmptySection from '@/components/EmptySection';
 
 const Index = () => {
   return (
@@ -14,9 +16,9 @@ const Index = () => {
       <Header />
       <Hero />
       <EmptySection id="first-empty" />
-      <EmptySection id="second-empty" />
+      <ExploreApps />
       <JoinCommunity />
-      <EmptySection id="third-empty" />
+      <WhatIsAbstract />
       <JoinCreators />
       <EmptySection id="fourth-empty" />
       <CommunityBenefits />
